@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Akronim|Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Akronim|El+Messiri|Great+Vibes|Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Akronim|El+Messiri|Great+Vibes|Parisienne|Playball&display=swap');
 body{
     width: 100%;
     height: 100%;
     background-color: grey;
-    color: white;
+    color: black;
 }
 .navbar-brand{
     font-family: 'Akronim';
@@ -24,15 +27,41 @@ nav ul li a{
     height: 120%;
     width: 120%;
 }
-.well-img{
+.welcome-img{
     align-items: center;
     align-content: center;
     align-self: center;
     text-align: center;
 }
-/* .welcome-text{
+ .welcome-text{
     text-align: center;
     padding-top: 15px;
-    font-family: 'Akronim';
-    font-size: 40px;
-} */
+    font-size: 30px;
+    font-family: 'Akronim', ;
+    font-family: 'Great Vibes', ;
+    font-family: 'Parisienne', ;
+    font-family: 'El Messiri', ;
+    color: black;
+ }
+ #offers{
+    font-family: 'Akronim' ;
+    font-family: 'Great Vibes' ;
+    font-family: 'Parisienne' ;
+    font-family: 'El Messiri' ;
+    font-family: 'Playball' ;
+    font-size: 70px;
+    text-align: center;
+ }
+ .offer-btn{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .footer-img{
+     text-align: center;
+ }
+ .footer-text{
+     text-align: center;
+     font-family: 'Akronim';
+     font-size: 35px;
+ }
