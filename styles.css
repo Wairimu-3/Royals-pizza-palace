@@ -7,6 +7,10 @@ body{
     height: 100%;
     background-color: grey;
     color: black;
+    background-image: url('./images/rp\ cool.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .navbar-brand{
     font-family: 'Akronim';
