@@ -208,7 +208,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #6c7571
   text-align: left;
   caption-side: bottom;
 }
@@ -4237,11 +4237,16 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: white;
+
 }
 
 .nav-link.disabled {
@@ -4358,7 +4363,7 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
-.navbar-nav {
+.navbar-F{
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
