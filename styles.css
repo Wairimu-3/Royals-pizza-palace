@@ -59,7 +59,9 @@ nav ul li a{
     font-size: 70px;
  }
  .footer-img{
-     text-align: center;
+    animation: bounce 5s infinite;
+    padding-top: 5%;
+    text-align: center;
  }
  .footer-text{
      text-align: center;
@@ -71,4 +73,9 @@ nav ul li a{
      height: 100%;
      width: 100%;
      display: none;
+ }
+ .footer-table{
+     align-items: center;
+     align-content: center;
+     margin-left: 45%;
  }

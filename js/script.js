@@ -1,45 +1,45 @@
-$(document).ready(function() {
-    $("#trigger").click(function() {
-    $("#offers").toggle();
+$(document).ready(function () {
+    $("#trigger").click(function () {
+        $("#offers").toggle();
     });
 });
 
 
-$(document).ready(function() {
-    $(".onCrack1").click(function() {
+$(document).ready(function () {
+    $(".onCrack1").click(function () {
         $("#click1").toggle();
         $("#magic1").toggle();
     });
-    $(".onCrack2").click(function() {
+    $(".onCrack2").click(function () {
         $("#magic2").toggle();
         $("#click2").toggle();
     });
-    $(".onCrack3").click(function() {
+    $(".onCrack3").click(function () {
         $("#magic3").toggle();
         $("#click3").toggle();
     });
 });
 
-            
-$(document).ready(function() {
-    $("div.image-frame").hover(function() {
+
+$(document).ready(function () {
+    $("div.image-frame").hover(function () {
         $(".classAdd1").addClass("mask flex-center rgba-red-strong");
     });
-    $("div.image-frame").hover(function() {
+    $("div.image-frame").hover(function () {
         $(".classAdd2").addClass("mask flex-center rgba-blue-light");
     });
-    $("div.image-frame").hover(function() {
+    $("div.image-frame").hover(function () {
         $(".classAdd3").addClass("mask flex-center rgba-green-slight");
     });
-    $("div.image-frame").hover(function() {
+    $("div.image-frame").hover(function () {
         $(".classAdd4").addClass("mask flex-center");
     });
 });
 
 var btn = document.getElementById("myBtn")
 
-                     
-btn.onclick = function(event) {
+
+btn.onclick = function (event) {
     var x = document.forms["myForm"]["contact-name"].value;
     if (x == "") {
         alert("Please enter your name");
