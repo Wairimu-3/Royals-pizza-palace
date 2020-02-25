@@ -41,10 +41,10 @@ nav ul li a{
     text-align: center;
     padding-top: 15px;
     font-size: 30px;
-    font-family: 'Akronim', ;
-    font-family: 'Great Vibes', ;
-    font-family: 'Parisienne', ;
-    font-family: 'El Messiri', ;
+    font-family: 'Akronim' ;
+    font-family: 'Great Vibes' ;
+    font-family: 'Parisienne' ;
+    font-family: 'El Messiri' ;
     color: black;
  }
  .offer-btn{
@@ -79,3 +79,25 @@ nav ul li a{
      align-content: center;
      margin-left: 45%;
  }
+
+                        /* about                              */
+
+ #about{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.about-text{
+    font-size: 30px;
+    font-family: 'Akronim' ;
+    font-family: 'Great Vibes' ;
+    font-family: 'Parisienne' ;
+    font-family: 'El Messiri';
+}
+.about-heading{
+    color:red;
+}
+.container{
+    float: left;
+    margin-top: 0%;
+    margin-bottom: 80%;
+}
