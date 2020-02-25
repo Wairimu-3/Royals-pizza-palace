@@ -1,4 +1,10 @@
-       
+$(document).ready(function() {
+    $("#trigger").click(function() {
+    $("#offers").toggle();
+    });
+});
+
+
 $(document).ready(function() {
     $(".onCrack1").click(function() {
         $("#click1").toggle();

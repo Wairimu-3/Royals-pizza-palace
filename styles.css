@@ -47,19 +47,16 @@ nav ul li a{
     font-family: 'El Messiri', ;
     color: black;
  }
- #offers{
+ .offer-btn{
+    align-content: center;
+    align-items: center;
+    text-align: center;
     font-family: 'Akronim' ;
     font-family: 'Great Vibes' ;
     font-family: 'Parisienne' ;
     font-family: 'El Messiri' ;
     font-family: 'Playball' ;
     font-size: 70px;
-    text-align: center;
- }
- .offer-btn{
-    align-content: center;
-    align-items: center;
-    text-align: center;
  }
  .footer-img{
      text-align: center;
@@ -71,4 +68,6 @@ nav ul li a{
  }
  #offers{
      align-items: center;
+     height: 1000px;
+     width: auto;
  }
