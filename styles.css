@@ -7,7 +7,7 @@ body{
     height: 100%;
     background-color: grey;
     color: black;
-    background-image: url('./images/rp\ cool.png');
+    /* background-image: url('./images/rp\ cool.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -60,7 +60,6 @@ nav ul li a{
  }
  .footer-img{
     animation: bounce 5s infinite;
-    padding-top: 5%;
     text-align: center;
  }
  .footer-text{
