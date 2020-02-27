@@ -133,21 +133,24 @@ h1{
     float: right;
     padding-top: 10px;
 }
-    /* contact us */
 
-    #contact-us{
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    #contact{
-        width: 20%;
-        margin-left: 5%;
-        background-color: grey;
+    .contact{
+        padding: 25px;
         float: left;
     }
-  .contacts{
+    footer{
+        height: auto;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+    }
+    #img{
+        padding: 40px;
+    }
+    .contacts{
         align-items: center;
-        /* align-content: center; */
         border: 2px solid grey;
         width: 400px;
         text-align: center;
@@ -156,11 +159,15 @@ h1{
         margin-left: 40%;
         color: black;
     }
-    .contacts{
-        float: right;
-        margin-top: 0%;
-        margin-left: 50%;
+    .contacts input[type="text"],[type="submit"]{
+        background-color: black;
+        text-align: center;
     }
-    #contacts{
+    .form input[type="number"],[type="submit"]{
+        background-color: black;
+        text-align: center;
+    }
+    #saver{
         float: right;
+
     }
