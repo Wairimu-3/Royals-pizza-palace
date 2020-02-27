@@ -32,6 +32,9 @@ nav ul li a{
     height: 120%;
     width: 120%;
 }
+#hommy{
+    margin-bottom: 60%;
+}
 .welcome-img{
     align-items: center;
     align-content: center;
@@ -70,6 +73,7 @@ nav ul li a{
  }
  #offers{
      align-items: center;
+     margin-left: 15%;
      height: 100%;
      width: 100%;
      display: none;
@@ -78,6 +82,7 @@ nav ul li a{
      align-items: center;
      align-content: center;
      margin-left: 45%;
+     border: none;
  }
 
                         /* about                              */
@@ -94,10 +99,20 @@ nav ul li a{
     font-family: 'El Messiri';
 }
 .about-heading{
-    color:red;
+    color:white;
+    margin-left: 30px;
+}
+#ab{
+    margin-bottom: 29%;
 }
 .container{
     float: left;
     margin-top: 0%;
-    margin-bottom: 80%;
+}
+.cont{
+    padding-top: 10px;
+}
+.italian{
+    float: right;
+    padding-top: 10px;
 }
