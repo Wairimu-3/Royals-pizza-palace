@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Akronim|El+Messiri|Great+Vibes|Parisienne|Playball&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 body{
+    background-image: url('./images/leaf.webp');
     width: 100%;
     height: 100%;
     background-color: grey;
@@ -39,8 +40,8 @@ h1{
     height: 120%;
     width: 120%;
 }
-#hommy{
-    margin-bottom: 60%;
+#home{
+    overflow-y: scroll;
 }
 .welcome-img{
     align-items: center;
@@ -65,7 +66,7 @@ h1{
     font-family: 'Great Vibes' ;
     font-family: 'Parisienne' ;
     font-family: 'El Messiri' ;
-    color: black;
+    color:white;
  }
  .offer-btn{
     align-content: center;
@@ -125,6 +126,7 @@ h1{
 .container{
     float: left;
     margin-top: 0%;
+    color: white;
 }
 .cont{
     padding-top: 10px;
@@ -134,40 +136,78 @@ h1{
     padding-top: 10px;
 }
 
-    .contact{
-        padding: 25px;
-        float: left;
-    }
-    footer{
-        height: auto;
-        width: 100%;
-        bottom: 0;
-        text-align: center;
-        color: black;
-        font-size: 30px;
-    }
-    #img{
-        padding: 40px;
-    }
-    .contacts{
-        align-items: center;
-        border: 2px solid grey;
-        width: 400px;
-        text-align: center;
-        align-content: center;
-        flex-direction: column;
-        margin-left: 40%;
-        color: black;
-    }
-    .contacts input[type="text"],[type="submit"]{
-        background-color: black;
-        text-align: center;
-    }
-    .form input[type="number"],[type="submit"]{
-        background-color: black;
-        text-align: center;
-    }
-    #saver{
-        float: right;
+           /* contact */
+ 
+#contact{
+    color: white;
 
-    }
+}.contact{
+    padding: 25px;
+    margin-left: 20%;
+ }
+footer{
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+#img{
+    padding: 40px;
+ }
+.contacts{
+    align-items: center;
+    border: 2px solid grey;
+    width: 400px;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 40%;
+    color: black;
+}
+.contacts input[type="text"],[type="submit"]{
+    background-color: white;
+    text-align: center;
+ }
+.form input[type="number"],[type="submit"]{
+    background-color: white;
+    text-align: center;
+}
+
+             /* menu/order */
+
+
+
+
+#order{
+    color: white;
+
+}
+#menu{
+    overflow-y: scroll ;
+}
+#menu{
+    align-items: center;
+    margin-left: 5%;
+    height: 100%;
+    width: 100%;
+    display: none;
+    padding: 15px;
+}
+.menu-btn{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Akronim' ;
+    font-family: 'Great Vibes' ;
+    font-family: 'Parisienne' ;
+    font-family: 'El Messiri' ;
+    font-family: 'Playball' ;
+    font-size: 70px;
+}
+#magic1,
+#magic2,
+#magic3 {
+    display: none;
+}
