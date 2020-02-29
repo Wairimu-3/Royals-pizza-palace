@@ -87,10 +87,7 @@ function getSize() {
 }
 
 
-// function getCrust() {
-//     var selectedCrust = document.getElementById("crust").value;
-//     return parseInt(selectedCrust);
-// }
+
 function getToppings() {
     var selectedToppings = document.getElementById("toppings").value;
     return parseInt(selectedToppings);
@@ -119,7 +116,7 @@ function getTotalAmount() {
 function output(){
     let ourAmount = getTotalAmount()
     if(ourAmount){
-        prompt('Your location');
+        prompt('Enter your location');
         alert("Your pizza will be delivered to you...the delivery fee is ksh.100...Welcome again!!")
     }else{
         alert("Royals pizza palace!!Top notch pizza service.Welcome!")

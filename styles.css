@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Akronim|El+Messiri|Great+Vibes|Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Akronim|El+Messiri|Great+Vibes|Parisienne|Playball&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 body{
     background-image: url('./images/table2.jpeg');
     width: 100%;
@@ -281,9 +282,12 @@ div.contact-btn button:hover {
 #magic3 {
     display: none;
 }
-#order{
-    
 
+             /* order             */
+
+#order{
+    background-color: black;
+    width: 100%;
 }
 .type{
     align-items: center;
@@ -305,4 +309,6 @@ div.contact-btn button:hover {
 .rp-cool{
     float: left;
 }
-
+.enjoy{
+    font-family: 'Pacifico';
+}
