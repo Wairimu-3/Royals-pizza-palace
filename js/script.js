@@ -88,8 +88,8 @@ function getSize() {
 
 
 
-function getToppings() {
-    var selectedToppings = document.getElementById("toppings").value;
+function getType() {
+    var selectedToppings = document.getElementById("typeOfPizza").value;
     return parseInt(selectedToppings);
 }
 function getQuantity() {
@@ -100,12 +100,12 @@ function getCrust() {
     var selectedQuantity = document.getElementById("crust").value;
     return parseInt(selectedQuantity);
 }
-function getDrink() {
-    var selectedToppings = document.getElementById("typeOfPizza").value;
+function getToppings() {
+    var selectedToppings = document.getElementById("toppings").value;
     return parseInt(selectedToppings);
 }
 function getTotalAmount() {
-    let totalAmount = (getSize() + getToppings() + getDrink()) * getQuantity();
+    let totalAmount = (getSize() + getToppings() + getType()) * getQuantity();
     if (totalAmount) {
         alert("You have Ordered" + " " + getQuantity("") + " " + "pizza." + "" + " The Total Amount is kshs " + (totalAmount) + "" + " Thank you for eating at Royals pizza palace.");
     } else {
@@ -119,6 +119,6 @@ function output() {
         prompt('Enter your location');
         alert("Your pizza will be delivered to you...the delivery fee is ksh.100...Welcome again!!")
     } else {
-        alert("Royals pizza palace!!Top notch pizza service.Welcome!")
+        alert("Royals pizza palace!!We offer top notch pizza service.Welcome!")
     }
 }
