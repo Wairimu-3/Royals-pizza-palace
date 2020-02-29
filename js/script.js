@@ -106,19 +106,19 @@ function getDrink() {
 }
 function getTotalAmount() {
     let totalAmount = (getSize() + getToppings() + getDrink()) * getQuantity();
-    if(totalAmount){
-        alert("You have Ordered" + " " + getQuantity("")  + " " + "pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for eating at Royals pizza palace.");
+    if (totalAmount) {
+        alert("You have Ordered" + " " + getQuantity("") + " " + "pizza." + "" + " The Total Amount is kshs " + (totalAmount) + "" + " Thank you for eating at Royals pizza palace.");
     } else {
         return false
     }
     return totalAmount;
 }
-function output(){
+function output() {
     let ourAmount = getTotalAmount()
-    if(ourAmount){
+    if (ourAmount) {
         prompt('Enter your location');
         alert("Your pizza will be delivered to you...the delivery fee is ksh.100...Welcome again!!")
-    }else{
+    } else {
         alert("Royals pizza palace!!Top notch pizza service.Welcome!")
     }
 }
