@@ -14,6 +14,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-size: 20px;
+    border: 30px solid black;
 }
  .navbar-brand{
     font-family: 'Akronim';
@@ -124,13 +125,12 @@ h1{
 }
 .about-heading{
     color: white;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 #ab{
     margin-bottom: 29%;
 }
 .container{
-    float: left;
     margin-top: 0%;
     color: white;
 }
@@ -139,7 +139,6 @@ h1{
 }
 .italian{
     float: right;
-    padding-top: 10px;
 }
 
            /* contact */
@@ -283,7 +282,7 @@ div.contact-btn button:hover {
     display: none;
 }
 
-             /* order             */
+
 
 #order{
     background-color: black;
