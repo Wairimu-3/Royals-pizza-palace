@@ -281,4 +281,28 @@ div.contact-btn button:hover {
 #magic3 {
     display: none;
 }
+#order{
+    
+
+}
+.type{
+    align-items: center;
+    align-content: center;
+    width: 50%;
+}
+.size{
+    align-items: center;
+    align-content: center;
+}
+.crust{
+    align-items: center;
+    align-content: center;
+}
+.toppings{
+    align-items: center;
+    align-content: center;
+}
+.rp-cool{
+    float: left;
+}
 

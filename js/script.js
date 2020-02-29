@@ -80,3 +80,48 @@ btn.onclick = function (event) {
     $('.toast').toast('show');
     event.preventDefault();
 }
+
+function getSize() {
+    var selectedValue = document.getElementById("size").value;
+    return parseInt(selectedValue);
+}
+
+
+// function getCrust() {
+//     var selectedCrust = document.getElementById("crust").value;
+//     return parseInt(selectedCrust);
+// }
+function getToppings() {
+    var selectedToppings = document.getElementById("toppings").value;
+    return parseInt(selectedToppings);
+}
+function getQuantity() {
+    var selectedQuantity = document.getElementById("quantity").value;
+    return parseInt(selectedQuantity);
+}
+function getCrust() {
+    var selectedQuantity = document.getElementById("crust").value;
+    return parseInt(selectedQuantity);
+}
+function getDrink() {
+    var selectedToppings = document.getElementById("typeOfPizza").value;
+    return parseInt(selectedToppings);
+}
+function getTotalAmount() {
+    let totalAmount = (getSize() + getToppings() + getDrink()) * getQuantity();
+    if(totalAmount){
+        alert("You have Ordered" + " " + getQuantity("")  + " " + "pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for eating at Royals pizza palace.");
+    } else {
+        return false
+    }
+    return totalAmount;
+}
+function output(){
+    let ourAmount = getTotalAmount()
+    if(ourAmount){
+        prompt('Your location');
+        alert("Your pizza will be delivered to you...the delivery fee is ksh.100...Welcome again!!")
+    }else{
+        alert("Royals pizza palace!!Top notch pizza service.Welcome!")
+    }
+}
